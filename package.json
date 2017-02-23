@@ -1,0 +1,22 @@
+{
+  "name": "demo-client-polymer",
+  "version": "0.0.1",
+  "author": "Eric Sorenson",
+  "private": true,
+  "devDependencies": {
+    "bower": "1.8.0",
+    "coffee-script": "1.12.3",
+    "express": "4.14.1",
+    "gulp-pug": "3.2.0",
+    "gulp-watch": "4.3.11",
+    "gulp": "3.9.1",
+    "jstransformer-coffee-script": "1.1.0",
+    "lodash": "4.17.4",
+    "pug": "2.0.0-beta11",
+    "stylus": "0.54.5",
+    "webcomponentsjs": "1.0.2"
+  },
+  "scripts": {
+    "dev": "npm prune; npm install; bower prune; bower install; ./node_modules/.bin/gulp"
+  }
+}

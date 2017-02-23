@@ -1,0 +1,16 @@
+link(rel="import" href="lib/iron-ajax/iron-ajax.html")
+dom-module#album-collection
+  template
+    iron-ajax(auto url="http://localhost:8081/albums" handle-as="json" last-response="{{response}}")
+    table
+      thead
+        tr
+          th Title
+          th Artist
+      tbody
+        template(is="dom-repeat" items="{{response}}")
+          tr
+            td {{item.title}}
+            td {{item.artist}}
+script
+  include:coffee-script album-collection.coffee

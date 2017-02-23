@@ -1,0 +1,2 @@
+Polymer
+  is: 'album-collection'

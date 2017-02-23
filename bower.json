@@ -1,0 +1,8 @@
+{
+  "name": "demo-client-polymer",
+  "version": "0.0.1",
+  "dependencies": {
+    "iron-ajax": "Polymerelements/iron-ajax#1.0.4",
+    "polymer": "Polymer/polymer#1.1.0"
+  }
+}
